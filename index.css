@@ -1,0 +1,52 @@
+
+.logo{
+justify-content: center;
+display: flex;
+
+}
+.text{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+
+}
+.text img{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+.imagebutton img {
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    transition:ease-in;
+    border-radius: 20%;
+   
+
+}
+
+.imagebutton1 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition:ease-in;
+    display: block;
+   
+}
+
+.layout img{
+    max-width:500px;
+    height: 500px;
+    width: 100%;
+}
+
+.layout{
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+}
